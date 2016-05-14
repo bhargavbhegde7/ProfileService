@@ -1,0 +1,30 @@
+body{
+	background-color:#282828;
+	/* background-color:white; */
+}
+.container{
+	margin-top:15%;
+}
+img{
+	user-drag: none; 
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+}
+
+
+a.addbutton {
+  	-webkit-filter: drop-shadow(1px 1px 1px #000000);
+    filter: drop-shadow(1px 2px 1px #000000);
+	opacity: 0.8;
+    filter: alpha(opacity=80); For IE8 and earlier
+}
+a.addbutton:hover {
+  	opacity: 1;
+    filter: alpha(opacity=100); For IE8 and earlier
+}
+a.addbutton:active {
+  	-webkit-filter: drop-shadow(0px 0px 0px #000000);
+    filter: drop-shadow(0px 0px 0px #000000);
+    opacity: 0.8;
+    filter: alpha(opacity=80); For IE8 and earlier
+}
